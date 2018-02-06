@@ -9,15 +9,14 @@ fun main(args: Array<String>) {
     for (i in 1..10) {
         val key = Button.waitForAnyPress()
 
-        when(key) {
-            1 -> println ("UP")
-            2 -> println ("OK")
-            4 -> println ("DOWN")
-            8 -> println ("RIGHT")
-            16 -> println ("LEFT")
-            32 -> println ("ESCAPE")
+        when (key) {
+            Button.ID_UP -> println("UP")
+            Button.ID_ENTER -> println("OK")
+            Button.ID_DOWN -> println("DOWN")
+            Button.ID_RIGHT -> println("RIGHT")
+            Button.ID_LEFT -> println("LEFT")
+            Button.ID_ESCAPE -> println("ESCAPE")
             else -> println("UNKNOWN")
         }
-
     }
 }
