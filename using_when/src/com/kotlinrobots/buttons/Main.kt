@@ -1,4 +1,4 @@
-package buttons
+package com.kotlinrobots.buttons
 
 import lejos.hardware.Button
 
