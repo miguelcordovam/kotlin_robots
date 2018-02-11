@@ -1,4 +1,4 @@
-package hellokotlin
+package com.kotlinrobots.hello
 
 import lejos.hardware.BrickFinder
 
